@@ -55,8 +55,8 @@ MIN_QUESTION_DELAY = 60
 MAX_QUESTION_DELAY = 300
 
 # فایل‌های دائمی
-DATA_FILE = Path("rubika_math_data.json")
-OFFSET_FILE = Path("rubika_offset.txt")
+DATA_FILE = Path("/tmp/rubika_math_data.json")
+OFFSET_FILE = Path("/tmp/rubika_offset.txt")
 
 # پورت HTTP برای Render و سرویس‌های مشابه
 PORT = int(os.getenv("PORT", "10000"))
